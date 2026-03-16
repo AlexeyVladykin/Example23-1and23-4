@@ -1,5 +1,6 @@
 def Summ(a, b):
-    print("")
+    result = a + b
+    print(f"{a} + {b} = {result}")
 
 def Minus(a, b):
     print("")
@@ -12,8 +13,8 @@ def Delenie(a, b):
     print("")
 
 
-chisloA = input("Введите число А: ")
-chisloB = input("Введите число Б: ")
+chisloA = int(input("Введите число А: "))
+chisloB = int(input("Введите число Б: "))
 
 print("Выберите действие:\n1. Сложение\n2. Вычитание\n3. Умножение\n4. Деление\n")
 
